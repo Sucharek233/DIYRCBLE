@@ -1,0 +1,6 @@
+package com.sucharek.rc
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity: FlutterActivity() {
+}
