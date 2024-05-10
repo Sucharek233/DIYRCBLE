@@ -1222,10 +1222,10 @@ class _MoreState extends State<More> {
                   children: [
                     const Text("Source code: ", style: TextStyle(fontSize: 20)),
                     InkWell(
-                      onTap: () =>
-                          launchUrl(Uri.parse('https://www.google.com')),
+                      onTap: () => launchUrl(
+                          Uri.parse('https://github.com/Sucharek233/DIYRCBLE')),
                       child: const Text(
-                        'Click here',
+                        'https://github.com/Sucharek233/DIYRCBLE',
                         style: TextStyle(color: Colors.blue, fontSize: 20),
                       ),
                     ),
